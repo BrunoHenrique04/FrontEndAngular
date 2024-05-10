@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { __setFunctionName } from 'tslib';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+
+
 export class HomeComponent {
   nomeProduto : string = "Curso de Angular";
   anuncio = `O ${this.nomeProduto} Está em promoção `;
